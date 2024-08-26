@@ -39,7 +39,7 @@ curl -X 'POST' \
 Run a spam detection on the given text. This endpoint will do text preprocess first before running the spam detection. You don't need to call preprocess endpoint before calling this endpoint.
 
 ```
-POST /v1/spam_detection/predict
+POST /v1/spam-detection/predict
 ```
 
 Example request body:
@@ -82,7 +82,7 @@ Run a text preprocess on the given text.
 > Note: If you're intended to run spam detection, **NO NEED** to call this endpoint. Spam detection endpoint will automatically run preprocess under the hood.
 
 ```
-POST /v1/spam_detection/preprocess
+POST /v1/spam-detection/preprocess
 ```
 
 Example request body:
