@@ -19,7 +19,7 @@ https://api.userbotindo.com
 
 - All endpoints return a JSON Object
 
-- every endpoint uses API key for authentication. You can get the API key by sending `/api_key` to [@dAnjani_bot](https://t.me/dAnjani_bot) on Telegram. API key is required to be sent as `x-api-key` header.
+- every endpoint uses API key for authentication. You can get the API key by sending `/token` to [@dAnjani_bot](https://t.me/dAnjani_bot) on Telegram. API key is required to be sent as `x-api-key` header.
 
 ```
 curl -X 'POST' \
